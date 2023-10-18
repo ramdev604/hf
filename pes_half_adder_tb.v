@@ -10,7 +10,9 @@ pes_half_adder dut(
                .o_carry (carry)	                      //output
                )                                      ; 
 
-initial begin 
+initial begin
+   $dumpfile("pes_half_adder_tb.vcd");
+   $dumpvars(0, pes_half_adder_tb);
    repeat(10)
       begin
          stimulus()                                   ;//instantiating task
