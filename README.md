@@ -40,7 +40,7 @@ The half adder is a fundamental building block for more complex arithmetic opera
 </details>
 
 <details>
-<summary>OpenLane Flow/summary>
+<summary>OpenLane Flow</summary>
 <br>
 
 ## Synthesis
