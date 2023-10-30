@@ -20,6 +20,10 @@ As you can see from the truth table, when both A and B are 0, the sum and carry 
 
 The half adder is a fundamental building block for more complex arithmetic operations in digital circuits, and it is often used as part of larger circuits to perform addition and subtraction operations on binary numbers.
 
+<details>
+<summary>RTL to GLS</summary>
+<br>
+
 ## RTL Simulation
 
 ![2N](https://github.com/ramdev604/hf/assets/43489027/a10fcc38-6f50-4c48-9a3a-de56c6a331f8)
@@ -33,8 +37,13 @@ The half adder is a fundamental building block for more complex arithmetic opera
 ## Gate-Level Simulation
 ![N4](https://github.com/ramdev604/hf/assets/43489027/3f1d309e-e50f-4f3a-8e18-6f60c0be1479)
 
-## OpenLANE Flow
-### Synthesis
+</details>
+
+<details>
+<summary>OpenLane Flow/summary>
+<br>
+
+## Synthesis
 - Type
 ```
 run_synthesis
@@ -89,11 +98,13 @@ run_cts
 
 
 **Power Report**
+
 ![7](https://github.com/ramdev604/hf/assets/43489027/2e92c12b-f7db-4c17-bb42-19288cbb04c7)
 
 
 
 **Summary and Area Report**
+
 ![8](https://github.com/ramdev604/hf/assets/43489027/4c4232e0-ed0b-4ad5-b152-854a650cd02b)
 
 ![9](https://github.com/ramdev604/hf/assets/43489027/34bdeb7c-6951-46d0-b9dc-a2873a24711b)
@@ -113,13 +124,16 @@ magic -T /home/ramdev/OpenLane/sky130A/sky130A/libs.tech/magic/sky130A.tech lef 
 ![11](https://github.com/ramdev604/hf/assets/43489027/9c984265-5d02-43bb-a2d8-90fd7a863f76)
 
 **Congestion Report**
+
 ![12](https://github.com/ramdev604/hf/assets/43489027/1420dd71-8541-4725-89f1-3d05260e69c2)
 
 
 **Power Report**
+
 ![13](https://github.com/ramdev604/hf/assets/43489027/c0212d6c-7719-4f15-b480-5a944e9f915c)
 
 **Summary Report and Area Report**
+
 ![14](https://github.com/ramdev604/hf/assets/43489027/a1b6e865-b710-49d5-b180-c08837f31fe4)
 
-
+</details>
