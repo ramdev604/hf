@@ -136,4 +136,11 @@ magic -T /home/ramdev/OpenLane/sky130A/sky130A/libs.tech/magic/sky130A.tech lef 
 
 ![14](https://github.com/ramdev604/hf/assets/43489027/a1b6e865-b710-49d5-b180-c08837f31fe4)
 
+**Statistics**
+- Area = 55 um2
+- Internal Power = 8.15e-08 W
+- Switching Power = 1.85e-07
+- Leakage Power = 1.03e-10
+- Total Power = 2.66e-07
+
 </details>
